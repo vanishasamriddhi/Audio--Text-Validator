@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Audio Validator</title>
+		<!-- link to Bootstrap minified css-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- link to Jquery minified-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- link to Bootstrap JS -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- link to external CSS -->
+    <link rel="stylesheet" type="text/css" href="1.css">
+</head>
+<body>
+    <nav class="nav navbar-fixed-top navbar-inverse">
+        <div class="continer">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavBar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Audio Validator</a>
+            </div>
+            <!-- <div class="collapse navbar-collapse" id="mynavBar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> SignUp</a></li>
+                </ul>
+            </div> -->
+        </div>
+    </nav>
+    <div class="container">
+        <form>
+             <h2>Audio-I</h2>
+            <div id="audio">
+              <audio controls  >
+                <source src="Audio-1.wav" type="audio/wav">
+                 Your browser does not support the audio element.
+              </audio>
+            </div>
+              <p class="para" ><br><b>❛❛गेल्या ५ जुलैला स्वता सिद्धु यांनी आपल्या राजीनाम्याची घोषणा ट्विटरवर केली होती❞</b><br><br>
+                <div class="hebro">
+                 <!-- <h5 >Validate the above:</h5> -->
+                <input type="radio" id="first"  value="first">
+                <label for="html">Audio and text pair match    </label><br>
+                <input type="radio" id="second"   value="second"> 
+                <label for="css">Audio and text pair do not match</label><br></p>
+                </div>
+              <div class="btn-box">
+                  <button type="button">Next</button>
+              </div>
+
+        </form>
+    </div>
+</body>
+</html>
