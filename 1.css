@@ -4,14 +4,14 @@ box-sizing: border-box;
 }
 body 
 {
-       background-color: purple; 
        background-image: url(bg-image.jpg );
        background-size: cover;
+      
  }
 
-.container{
+.containr{
     width: 660px;
-    height: 500px;
+    height: 2350px;
     background-color:  rgba(0, 0, 0, 0.5); 
     border-radius: 5px;
     position: relative;
@@ -19,7 +19,7 @@ body
     color: white;
 }
 .para{
-    width: 620px;
+    width: 660px;
     /* height: 100px; */
     /* background-color: transparent; */
     background-color:  rgba(0, 0, 0, 0.5); 
@@ -35,16 +35,19 @@ body
 }
 h2{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .hebro{
     margin-left: 150px;
+    margin-bottom: 50px;
+    margin-top:20px;
     font-size: 16px;
     /* margin: 50px 50px; */
     margin-bottom: 10px;
 
 }
-.container form{
+.containr form{
     /* width: 280px; */
     position: absolute;
     
@@ -65,6 +68,21 @@ form button{
     outline: none;
     cursor: pointer;
 }
-#audio{
+audio{
     margin-left:150px;
+}
+.para1{
+    width: 660px;
+    /* height: 100px; */
+    /* background-color: transparent; */
+    background-color:  rgba(0, 0, 0, 0.5); 
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    border:5px;
+    margin-top:150px;
+
+    margin: 20px auto;
+    font-size: 20px;
+    align-items: center;
 }
