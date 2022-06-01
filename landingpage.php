@@ -45,14 +45,14 @@
        </nav>
       <div class="containr">
         <form action="connection.php" method="post">
-             <h2>Audio-I</h2>
-            <div id="audio">
-              <audio controls  >
-                <source src="Audio/Audio-1.wav" type="audio/wav">
-                 Your browser does not support the audio element.
-              </audio>
-            </div>
-              <p class="para" ><br><b>❛❛गेल्या ५ जुलैला स्वता सिद्धु यांनी आपल्या राजीनाम्याची घोषणा ट्विटरवर केली होती❞</b><br><br>
+            <h2>Audio-I</h2>
+                <div id="audio">
+                  <audio controls  >
+                           <source src="Audio/Audio-1.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                  </audio>
+                 </div>
+                <p class="para" ><br><b>❛❛गेल्या ५ जुलैला स्वता सिद्धु यांनी आपल्या राजीनाम्याची घोषणा ट्विटरवर केली होती❞</b><br><br>
                 <p class="hebro">
                     <input type="radio" id="first" name="audioI"  value="Audio and text pair match">
                     <label for="html">Audio and text pair match    </label><br>
@@ -62,12 +62,12 @@
                  <!-- <h5 >Validate the above:</h5> -->
                 
              
-              <h2>Audio-II</h2>
+            <h2>Audio-II</h2>
               <audio controls  >
                 <source src="Audio/Audio-2.wav" type="audio/wav">
                  Your browser does not support the audio element.
               </audio>
-              <p class="para1" ><br><b>❛❛स्लॅमडान्स एकोणीशे सत्याऐंशी  ह्या आधुनिक न्वार चित्रपटाचा कला दिग्दर्शक युगेनियो झारेटी म्हणतो, "न्वारचे आकर्षण कालातीत आहे, कारण न्वारच्या नायकाला सुटकेचा मार्ग नसतो, पर्याय नसतात ❞</b><br><br>
+                <p class="para1" ><br><b>❛❛स्लॅमडान्स एकोणीशे सत्याऐंशी  ह्या आधुनिक न्वार चित्रपटाचा कला दिग्दर्शक युगेनियो झारेटी म्हणतो, "न्वारचे आकर्षण कालातीत आहे, कारण न्वारच्या नायकाला सुटकेचा मार्ग नसतो, पर्याय नसतात ❞</b><br><br>
                 <p class="hebro"><br><br>
                  <!-- <h5 >Validate the above:</h5> -->
                  <input type="radio" id="first"  name="audioII" value="Audio and text pair match">
@@ -76,12 +76,12 @@
                  <label for="css">Audio and text pair do not match</label><br></p>
                 </p>
 
-                <h2>Audio-III</h2>
+              <h2>Audio-III</h2>
                 <audio controls  >
                   <source src="Audio/Audio-3.wav" type="audio/wav">
                    Your browser does not support the audio element.
                 </audio>
-                <p class="para1" ><br><b>❛❛काही बाबतीत प्रसूतीपूर्व जीवनसत्त्वे घेणे अत्यंत अनिष्ट आहे म्हणतात,❞</b><br><br>
+                  <p class="para1" ><br><b>❛❛काही बाबतीत प्रसूतीपूर्व जीवनसत्त्वे घेणे अत्यंत अनिष्ट आहे म्हणतात,❞</b><br><br>
                   <p class="hebro"><br><br>
                    <!-- <h5 >Validate the above:</h5> -->
                    <input type="radio" id="first" name="audioIII" value="Audio and text pair match">
@@ -90,12 +90,12 @@
                    <label for="no3">Audio and text pair do not match</label><br></p>
                   </p>
 
-                  <h2>Audio-IV</h2>
+              <h2>Audio-IV</h2>
                 <audio controls  >
                   <source src="Audio/Audio-4.wav" type="audio/wav">
                    Your browser does not support the audio element.
                 </audio>
-                <p class="para1" ><br><b>❛❛मात्र पंधरा  नोक्हेंबर अठराशे सतरा  मध्ये मराठयांचे आणि इंग्रजांमध्ये खडकीचे अखेरचे युद्ध झाले❞</b><br><br>
+                  <p class="para1" ><br><b>❛❛मात्र पंधरा  नोक्हेंबर अठराशे सतरा  मध्ये मराठयांचे आणि इंग्रजांमध्ये खडकीचे अखेरचे युद्ध झाले❞</b><br><br>
                   <p class="hebro"><br><br>
                    <!-- <h5 >Validate the above:</h5> -->
                    <input type="radio" id="yes4"  name="audioIV" value="Audio and text pair match">
@@ -103,12 +103,12 @@
                    <input type="radio" id="no4" name="audioIV"  value="Audio and text pair do not match"> 
                    <label for="no4">Audio and text pair do not match</label><br></p>
                   </p> 
-                  <h2>Audio-V</h2>
-                <audio controls  >
-                  <source src="Audio/Audio-5.wav" type="audio/wav">
-                   Your browser does not support the audio element.
-                </audio>
-                <p class="para1" ><br><b>❛❛आमदार कार्लूस आल्मेडा यांनी पणजीतील जाहीर सभेत वास्कोतून एक हजाराहून अधिक नागरिक उपस्थित राहणार असल्याचे सांगितले❞</b><br><br>
+              <h2>Audio-V</h2>
+                 <audio controls  >
+                     <source src="Audio/Audio-5.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                 </audio>
+                  <p class="para1" ><br><b>❛❛आमदार कार्लूस आल्मेडा यांनी पणजीतील जाहीर सभेत वास्कोतून एक हजाराहून अधिक नागरिक उपस्थित राहणार असल्याचे सांगितले❞</b><br><br>
                   <p class="hebro"><br><br>
                    <!-- <h5 >Validate the above:</h5> -->
                    <input type="radio" id="yes5" name="audioV" value="Audio and text pair match">
