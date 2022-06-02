@@ -118,7 +118,7 @@
                   </p> 
                     
               <div class="btn-box">
-                  <button type="submit" name="save_radio">Submit</button>
+                  <button type="submit" name="save_radio">Validate</button>
               </div>
         </form>
     </div>
